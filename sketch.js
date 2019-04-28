@@ -25,11 +25,13 @@ function setup() {
 
 function draw() {
   
-  
+  background(255);
   
   if (mouseIsPressed) {
+    fill(255);
     stroke(255);
   } else {
+    fill(255);
     stroke(255);
   }
   
